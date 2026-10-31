@@ -4,16 +4,21 @@
     font-family: Arial, Helvetica, sans-serif;
     font-width: 587px;
     letter-spacing: -7%;
+    display: flex;
+    text-align: center;
     font-weight: 400;
+    color: gray;
 }
 .text {
     font-size: 57.33px;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     font-width: 1.248px;
+    display: flex;
+    text-align: center;
     letter-spacing: -7%;
     font-weight: 400;
-
+  color: gray;
 }
 .ourproduct {
     font-size: 56px;
@@ -22,6 +27,9 @@
     font-width: 262px;
     font-weight: 500;
     letter-spacing: -7%;
+    display: flex;
+    text-align: center;
+      color: gray;
 
 }
 .simpleway {
@@ -29,15 +37,21 @@
     font-style: italic;
     font-width: 466px;
     font-weight: 500;
+    display: flex;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+      color: gray;
 }
 .button1 {
     color: fuchsia;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    display: flex;
+    text-align: center;
     font-width: 637px;
     font-weight: 500;
+    
 }
 .vioty {
     color: fuchsia;
@@ -45,23 +59,49 @@
     font-width: 160px;
     font-weight: 500;
     font-style: italic;
+    display: flex;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+      
 }
 .menu {
-    color: gray;
+      color: gray;
     font-size: 50px;
     display: flex;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     font-style: italic;
 }
+
 .contacts {
     color: gray;
     font-size: 50px;
     display: flex;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     font-style: italic;
 }
+
 .locations {
     color: gray;
     font-size: 50px;
     display: flex;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     font-style: italic;
 }
+.cards {
+    color: gray;
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+     font-style: italic;
+     grid-template-columns: repeat(2,1fr);
+    gap: 120px;
+    align-items: stretch ;
+}
+
+
+
+

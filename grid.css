@@ -1,0 +1,43 @@
+
+
+.element1 {
+    font-size: 40px;
+    display: grid;
+    grid-area: block;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    color: gray;
+    column-height: 150px;
+    column-height: 150px;
+}
+.element2 {
+    display: grid;
+    font-size: 40px;
+    grid-template-areas: 250px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 120px;
+}
+.element3 {
+    display: grid;
+    font-size: 40px;
+    grid-template-areas: 250px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 120px;
+}
+.elements {
+    display: grid;
+    font-size: 40px;
+    
+    grid-template-columns: repeat(2,1fr);
+    gap: 120px;
+}
+.elements2 {
+    display: grid;
+    font-size: 150px;
+    color: brown;
+    grid-template-columns: repeat(2,1fr);
+    gap: 120px;
+    align-items: stretch ;
+}
+
